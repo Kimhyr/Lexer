@@ -1,0 +1,8 @@
+procedure Initiate(
+	argc::Int32, argv::@[]UInt8
+) -> Int32 {
+	let ?x::Int32 = 7;
+	let arr::[]UInt8 = c"Hi!\0";
+	x = 21 + 14;
+	return x;
+}
